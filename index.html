@@ -1,0 +1,1003 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!--Import Google Icon Font-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        
+        <!-- Google fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Gupter|PT+Sans|PT+Sans+Narrow|Raleway|Roboto+Condensed|Source+Sans+Pro&display=swap" rel="stylesheet">
+
+        <!-- Compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        
+        <!-- Slick Slider CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css" integrity="sha256-3h45mwconzsKjTUULjY+EoEkoRhXcOIU4l5YAw2tSOU=" crossorigin="anonymous" />
+        
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous"/>
+        
+        <!-- Offline CSS -->
+        <link rel="stylesheet" href="static/css/style.css">
+        <link rel="stylesheet" href="static/css/home.css">
+        
+        <style>
+            .slider_btn {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .chevron_prev_next .fa {
+                font-weight: 300;
+                border-radius: 50%;
+                font-size: 16px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: #007bff;
+            }
+            .chevron_prev_next {
+                width: 38px;
+                height: 28px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border: 1px solid #007bff;
+                cursor: pointer;
+            }
+            .chevron_prev_next:hover {
+                background-color: #007bff;
+                transition: 0.6s;
+            }
+            .chevron_prev_next:hover .fa-chevron-left, .chevron_prev_next:hover .fa-chevron-right{
+                color: #fff;
+                transition: 0.6s;
+            }
+        </style>
+    </head>
+    
+    <body>
+        
+        <!-- NavBar Start -->
+        <div id="navbar_header">
+            <nav class="nav-extended" style="background: #232f3e;">
+                <div class="mycontainer">
+                    <div class="nav-wrapper">
+                        <a href="index.html" class="brand-logo left f-bold">
+                            <span class="white-text">Ark</span><span class="orange-text">hana</span>
+                        </a>
+                        <a href="#" data-target="mobile-demo" class="sidenav-trigger right"><i class="material-icons">menu</i></a>
+                        <ul id="nav-mobile" class="right hide-on-med-and-down">
+                            <li><a href="sass.html">Sass</a></li>
+                            <li><a href="badges.html">Components</a></li>
+                            <li><a href="collapsible.html">JavaScript</a></li>
+                        </ul>
+                    </div>
+                    <div class="nav-content">
+                        <ul class="tabs tabs-transparent">
+                            <li class="tab"><a class="active" href="#test1">Test 1</a></li>
+                            <li class="tab"><a href="#test2">Test 2</a></li>
+                            <div class="row">
+                                <div class="col xl7 l7 m6 s0">
+                                    <form class="search_input">
+                                        <input class="validate" type="search" placeholder="Search">
+                                    </form>
+                                </div>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <ul class="sidenav" id="mobile-demo">
+                <li><a href="sass.html">Sass</a></li>
+                <li><a href="badges.html">Components</a></li>
+                <li><a href="collapsible.html">JavaScript</a></li>
+                <div class="row">
+                    <div class="col xl7 l7 m6 s12">
+                        <form class="search_input">
+                            <input class="validate" type="search" placeholder="Search">
+                        </form>
+                    </div>
+                </div>
+            </ul>
+        </div>
+        <!-- NavBar end -->
+        
+        <!-- Main Content -->
+        <!-- ******************************** Top Carousel Section Start ****************************** -->
+        <div class="carousel carousel-slider" id="top_carousel">
+            <a class="carousel-item" href="#one!">
+                <img src="static/img/carousel/c5.jpg" height="350px" />
+            </a>
+            <a class="carousel-item" href="#two!">
+                <img src="static/img/carousel/c1.jpg" height="350px" />
+            </a>
+            <a class="carousel-item" href="#three!">
+                <img src="static/img/carousel/c3.png" height="350px" />
+            </a>
+            <a class="carousel-item" href="#three!">
+                <img src="static/img/carousel/c4.jpg" height="350px" />
+            </a>
+            <a class="carousel-item" href="#four!">
+                <img src="static/img/carousel/c6.jpg" height="350px" />
+            </a>
+        </div>
+        <!-- ********************************* Top Carousel Section End ******************************* -->
+
+        <!-- ************************************* Section two Start ********************************** -->
+
+        <div class="p-2 pt-3 bg-light" id="home_div">
+            <div class="row">
+
+                <div class="col xl3 l3 m6 s12 home_div_1 p-3 mb-3">
+                    <div class="dv1 px-3 py-2">
+                        <h6 class="f-bold fs-20 mb-2">Triple camera smartphones | Starting 9,999</h6>
+                        <div class="row">
+                            <div class="col xl6 l6 m6 s6">
+                                <a href="#">
+                                    <img src="static/img/div1/i1.jpg" class="responsive-img"><br>
+                                    <span>Vivo U10</span>
+                                </a>
+                            </div>
+                            <div class="col xl6 l6 m6 s6">
+                                <a href="#">
+                                    <img src="static/img/div1/i2.jpg" class="responsive-img"><br>
+                                    <span>Galaxy m30s</span>
+                                </a>
+                            </div>
+                            <div class="col xl6 l6 m6 s6">
+                                <a href="#">
+                                    <img src="static/img/div1/i3.jpg" class="responsive-img"><br>
+                                    <span>One Plus 7T</span>
+                                </a>
+                            </div>
+                            <div class="col xl6 l6 m6 s6">
+                                <a href="#">
+                                    <img src="static/img/div1/i4.jpg" class="responsive-img"><br>
+                                    <span>One Plus 7T Pro</span>
+                                </a>
+                            </div>
+                        </div>
+                        <a href="#">see more</a>
+                    </div>
+                </div>
+
+                <div class="col xl3 l3 m6 s12 home_div_1 p-3 mb-3">
+                    <div class="dv1 px-3 py-2">
+                        <h6 class="f-bold fs-20 mb-2">Multicolor T-shirts Under ₹400 | Free delivery</h6>
+                        <div class="row">
+                            <div class="col xl6 l6 m6 s6">
+                                <a href="#">
+                                    <img src="static/img/div1/i10.jpg" class="responsive-img"><br>
+                                    <span>Men's Fashion</span>
+                                </a>
+                            </div>
+                            <div class="col xl6 l6 m6 s6">
+                                <a href="#">
+                                    <img src="static/img/div1/i9.png" class="responsive-img"><br>
+                                    <span>Women's Fashion</span>
+                                </a>
+                            </div>
+                            <div class="col xl6 l6 m6 s6">
+                                <a href="#">
+                                    <img src="static/img/div1/i11.jpeg" class="responsive-img"><br>
+                                    <span>Electronics</span>
+                                </a>
+                            </div>
+                            <div class="col xl6 l6 m6 s6">
+                                <a href="#">
+                                    <img src="static/img/div1/i12.jpg" class="responsive-img"><br>
+                                    <span>Home decor</span>
+                                </a>
+                            </div>
+                        </div>
+                        <a href="#">see more</a>
+                    </div>
+                </div>
+
+                <div class="col xl3 l3 m6 s12 home_div_1 p-3 mb-3">
+                    <div class="dv1 px-3 py-2">
+                        <h6 class="f-bold fs-20 mb-2">Up to 45% off | TVs, Laptops & appliances</h6>
+                        <div class="row">
+                            <div class="col xl6 l6 m6 s6">
+                                <a href="#">
+                                    <img src="static/img/clothing/19/i1.jpg"><br>
+                                    <span>Televisions</span>
+                                </a>
+                            </div>
+                            <div class="col xl6 l6 m6 s6">
+                                <a href="#">
+                                    <img src="static/img/clothing/12/i1.jpeg"><br>
+                                    <span>Laptops</span>
+                                </a>
+                            </div>
+                            <div class="col xl6 l6 m6 s6">
+                                <a href="#">
+                                    <img src="static/img/clothing/16/i1.jpeg"><br>
+                                    <span>Mobile</span>
+                                </a>
+                            </div>
+                            <div class="col xl6 l6 m6 s6">
+                                <a href="#">
+                                    <img src="static/img/clothing/20/i1.jpg"><br>
+                                    <span>Air Conditioners</span>
+                                </a>
+                            </div>
+                        </div>
+                        <a href="#">see more</a>
+                    </div>
+                </div>
+
+                <div class="col xl3 l3 m6 s12 home_div_1 p-3 mb-3">
+                    <div class="dv1 px-3 py-2">
+                        <h6 class="f-bold fs-20 mb-2">Recharges, bills, movies & more</h6>
+                        <div class="row">
+                            <div class="col xl6 l6 m6 s6">
+                                <a href="#">
+                                    <img src="static/img/div1/i5.jpg"><br>
+                                    <span>Mobile Recharge</span>
+                                </a>
+                            </div>
+                            <div class="col xl6 l6 m6 s6">
+                                <a href="#">
+                                    <img src="static/img/div1/i6.jpg"><br>
+                                    <span class="ml-3">Bills</span>
+                                </a>
+                            </div>
+                            <div class="col xl6 l6 m6 s6">
+                                <a href="#">
+                                    <img src="static/img/div1/i7.jpg"><br>
+                                    <span class="ml-2">Movies</span>
+                                </a>
+                            </div>
+                            <div class="col xl6 l6 m6 s6">
+                                <a href="#">
+                                    <img src="static/img/div1/i8.jpg"><br>
+                                    <span class="ml-3">Offers</span>
+                                </a>
+                            </div>
+                        </div>
+                        <a href="#">see more</a>
+                    </div>
+                </div>
+
+                <div class="col xl3 l3 m6 s12 home_div_1 p-3 mb-3">
+                    <div class="dv1 px-3 py-2">
+                        <h6 class="f-bold fs-20 mb-2">Up to 45% off | TVs, Laptops & appliances</h6>
+                        <div class="row">
+                            <div class="col xl6 l6 m6 s6">
+                                <a href="#">
+                                    <img src="static/img/clothing/19/i1.jpg"><br>
+                                    <span>Televisions</span>
+                                </a>
+                            </div>
+                            <div class="col xl6 l6 m6 s6">
+                                <a href="#">
+                                    <img src="static/img/clothing/12/i1.jpeg"><br>
+                                    <span>Laptops</span>
+                                </a>
+                            </div>
+                            <div class="col xl6 l6 m6 s6">
+                                <a href="#">
+                                    <img src="static/img/clothing/16/i1.jpeg"><br>
+                                    <span>Mobile</span>
+                                </a>
+                            </div>
+                            <div class="col xl6 l6 m6 s6">
+                                <a href="#">
+                                    <img src="static/img/clothing/20/i1.jpg"><br>
+                                    <span>Air Conditioners</span>
+                                </a>
+                            </div>
+                        </div>
+                        <a href="#">see more</a>
+                    </div>
+                </div>
+
+                <div class="col xl3 l3 m6 s12 home_div_1 p-3 mb-3">
+                    <div class="dv1 px-3 py-2">
+                        <h6 class="f-bold fs-20 mb-2">Recharges, bills, movies & more</h6>
+                        <div class="row">
+                            <div class="col xl6 l6 m6 s6">
+                                <a href="#">
+                                    <img src="static/img/div1/i5.jpg"><br>
+                                    <span>Mobile Recharge</span>
+                                </a>
+                            </div>
+                            <div class="col xl6 l6 m6 s6">
+                                <a href="#">
+                                    <img src="static/img/div1/i6.jpg"><br>
+                                    <span class="ml-3">Bills</span>
+                                </a>
+                            </div>
+                            <div class="col xl6 l6 m6 s6">
+                                <a href="#">
+                                    <img src="static/img/div1/i7.jpg"><br>
+                                    <span class="ml-2">Movies</span>
+                                </a>
+                            </div>
+                            <div class="col xl6 l6 m6 s6">
+                                <a href="#">
+                                    <img src="static/img/div1/i8.jpg"><br>
+                                    <span class="ml-3">Offers</span>
+                                </a>
+                            </div>
+                        </div>
+                        <a href="#">see more</a>
+                    </div>
+                </div>
+
+                <div class="col xl3 l3 m6 s12 home_div_1 p-3 mb-3">
+                    <div class="dv1 px-3 py-2">
+                        <h6 class="f-bold fs-20 mb-2">Triple camera smartphones | Starting 9,999</h6>
+                        <div class="row">
+                            <div class="col xl6 l6 m6 s6">
+                                <a href="#">
+                                    <img src="static/img/div1/i1.jpg" class="responsive-img"><br>
+                                    <span>Vivo U10</span>
+                                </a>
+                            </div>
+                            <div class="col xl6 l6 m6 s6">
+                                <a href="#">
+                                    <img src="static/img/div1/i2.jpg" class="responsive-img"><br>
+                                    <span>Galaxy m30s</span>
+                                </a>
+                            </div>
+                            <div class="col xl6 l6 m6 s6">
+                                <a href="#">
+                                    <img src="static/img/div1/i3.jpg" class="responsive-img"><br>
+                                    <span>One Plus 7T</span>
+                                </a>
+                            </div>
+                            <div class="col xl6 l6 m6 s6">
+                                <a href="#">
+                                    <img src="static/img/div1/i4.jpg" class="responsive-img"><br>
+                                    <span>One Plus 7T Pro</span>
+                                </a>
+                            </div>
+                        </div>
+                        <a href="#">see more</a>
+                    </div>
+                </div>
+
+                <div class="col xl3 l3 m6 s12 home_div_1 p-3 mb-3">
+                    <div class="dv1 px-3 py-2">
+                        <h6 class="f-bold fs-20 mb-2">Multicolor T-shirts Under ₹400 | Free delivery</h6>
+                        <div class="row">
+                            <div class="col xl6 l6 m6 s6">
+                                <a href="#">
+                                    <img src="static/img/div1/i10.jpg" class="responsive-img"><br>
+                                    <span class="text-black">Men's Fashion</span>
+                                </a>
+                            </div>
+                            <div class="col xl6 l6 m6 s6">
+                                <a href="#">
+                                    <img src="static/img/div1/i9.png" class="responsive-img"><br>
+                                    <span>Women's Fashion</span>
+                                </a>
+                            </div>
+                            <div class="col xl6 l6 m6 s6">
+                                <a href="#">
+                                    <img src="static/img/div1/i11.jpeg" class="responsive-img"><br>
+                                    <span>Electronics</span>
+                                </a>
+                            </div>
+                            <div class="col xl6 l6 m6 s6">
+                                <a href="#">
+                                    <img src="static/img/div1/i12.jpg" class="responsive-img"><br>
+                                    <span>Home decor</span>
+                                </a>
+                            </div>
+                        </div>
+                        <a href="#">see more</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="home_div_2 px-2">
+                <div class="bg-white px-3 py-2">
+                    <h4 class="f-700 fs-24">Top trending T-shirts of this Week</h4>
+                    <div class="slider_one mt-3">
+                        <div class="d-inline">
+                            <a class="mx-center" style="width: 190px;" href="#">
+                                <img src="static/img/clothing/1/i1.jpeg" width="150px" height="220px">
+                            </a>
+                        </div>
+                        <div class="d-inline">
+                            <a class="mx-center" style="width: 190px;" href="#">
+                                <img src="static/img/clothing/2/i1.jpeg" width="150px" height="220px">
+                            </a>
+                        </div>
+                        <div class="d-inline">
+                            <a class="mx-center" style="width: 190px;" href="#">
+                                <img src="static/img/clothing/3/i1.jpeg" width="150px" height="220px">
+                            </a>
+                        </div>
+                        <div class="d-inline">
+                            <a class="mx-center" style="width: 190px;" href="#">
+                                <img src="static/img/clothing/4/i1.jpeg" width="150px" height="220px">
+                            </a>
+                        </div>
+                        <div class="d-inline">
+                            <a class="mx-center" style="width: 190px;" href="#">
+                                <img src="static/img/clothing/5/i1.jpeg" width="150px" height="220px">
+                            </a>
+                        </div>
+                        <div class="d-inline">
+                            <a class="mx-center" style="width: 290px;" href="#">
+                                <img src="static/img/clothing/6/i1.jpeg" width="150px" height="220px">
+                            </a>
+                        </div>
+                        <div class="d-inline">
+                            <a class="mx-center" style="width: 190px;" href="#">
+                                <img src="static/img/clothing/9/i1.jpeg" width="150px" height="220px">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="slider_btn slider_btn_one">
+                        <div class="chevron_prev_next chevron_prev mx-2">
+                            <span class="prev">
+                                <i class="fa fa-chevron-left"></i>
+                            </span>
+                        </div>
+                        <div class="chevron_prev_next chevron_next mx-2">
+                            <span class="next">
+                                <i class="fa fa-chevron-right"></i>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="home_div_2 px-2 mt-3">
+                <div class="bg-white px-3 py-2">
+                    <h4 class="f-700 fs-24">Top trending T-shirts of this Week</h4>
+                    <div class="slider_one mt-3">
+                        <div class="d-inline">
+                            <a class="mx-center" style="width: 190px;" href="#">
+                                <img src="static/img/clothing/10/i1.jpeg" width="140px" height="200px">
+                            </a>
+                        </div>
+                        <div class="d-inline">
+                            <a class="mx-center" style="width: 190px;" href="#">
+                                <img src="static/img/clothing/11/i1.jpeg" width="140px" height="200px">
+                            </a>
+                        </div>
+                        <div class="d-inline">
+                            <a class="mx-center" style="width: 190px;" href="#">
+                                <img src="static/img/clothing/12/i1.jpeg" width="140px" height="200px">
+                            </a>
+                        </div>
+                        <div class="d-inline">
+                            <a class="mx-center" style="width: 190px;" href="#">
+                                <img src="static/img/clothing/13/i1.jpeg" width="140px" height="200px">
+                            </a>
+                        </div>
+                        <div class="d-inline">
+                            <a class="mx-center" style="width: 190px;" href="#">
+                                <img src="static/img/clothing/14/i1.jpeg" width="140px" height="200px">
+                            </a>
+                        </div>
+                        <div class="d-inline">
+                            <a class="mx-center" style="width: 290px;" href="#">
+                                <img src="static/img/clothing/15/i1.jpeg" width="140px" height="200px">
+                            </a>
+                        </div>
+                        <div class="d-inline">
+                            <a class="mx-center" style="width: 190px;" href="#">
+                                <img src="static/img/clothing/16/i1.jpeg" width="140px" height="200px">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="slider_btn slider_btn_one">
+                        <div class="chevron_prev_next chevron_prev mx-2">
+                            <span class="prev">
+                                <i class="fa fa-chevron-left"></i>
+                            </span>
+                        </div>
+                        <div class="chevron_prev_next chevron_next mx-2">
+                            <span class="next">
+                                <i class="fa fa-chevron-right"></i>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="mt-3 pt-3 pb-2 bg-white mx-2">
+                <div class="row">
+                    <div class="col xl4 l4 m6 s12">
+                        <img src="static/img/bg4.jpg" width="100%" height="250px">
+                    </div>
+                    
+                    <div class="col xl4 l4 m6 s12">
+                        <img src="static/img/bg5.jpg" width="100%" height="250px">
+                    </div>
+                    
+                    <div class="col xl4 l4 m6 s12">
+                        <img src="static/img/bg7.jpg" width="100%" height="250px">
+                    </div>
+                </div>
+            </div>
+
+            <div class="home_div_2 px-2 mt-3">
+                <div class="bg-white px-3 py-2">
+                    <h4 class="f-700 fs-24">Up to 60% off | Fitness & sports</h4>
+                    <div class="slider_one mt-3">
+                        <div class="d-inline">
+                            <a class="mx-center" style="width: 190px;" href="#">
+                                <img src="static/img/div1/i12.jpg" width="140px" height="200px">
+                            </a>
+                        </div>
+                        <div class="d-inline">
+                            <a class="mx-center" style="width: 190px;" href="#">
+                                <img src="static/img/div1/i13.jpg" width="140px" height="200px">
+                            </a>
+                        </div>
+                        <div class="d-inline">
+                            <a class="mx-center" style="width: 190px;" href="#">
+                                <img src="static/img/div1/i14.jpg" width="140px" height="200px">
+                            </a>
+                        </div>
+                        <div class="d-inline">
+                            <a class="mx-center" style="width: 190px;" href="#">
+                                <img src="static/img/div1/i15.jpg" width="140px" height="200px">
+                            </a>
+                        </div>
+                        <div class="d-inline">
+                            <a class="mx-center" style="width: 190px;" href="#">
+                                <img src="static/img/div1/i16.jpg" width="140px" height="200px">
+                            </a>
+                        </div>
+                        <div class="d-inline">
+                            <a class="mx-center" style="width: 290px;" href="#">
+                                <img src="static/img/div1/i18.jpg" width="140px" height="200px">
+                            </a>
+                        </div>
+                        <div class="d-inline">
+                            <a class="mx-center" style="width: 190px;" href="#">
+                                <img src="static/img/div1/i19.jpg" width="140px" height="200px">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="slider_btn slider_btn_one">
+                        <div class="chevron_prev_next chevron_prev mx-2">
+                            <span class="prev">
+                                <i class="fa fa-chevron-left"></i>
+                            </span>
+                        </div>
+                        <div class="chevron_prev_next chevron_next mx-2">
+                            <span class="next">
+                                <i class="fa fa-chevron-right"></i>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="home_div_2 px-2 mt-3">
+                <div class="bg-white px-3 py-2">
+                    <h4 class="f-700 fs-24">Up to 50% off travel gear | Amazon Brands & more</h4>
+                    <div class="slider_one mt-3">
+                        <div class="d-inline">
+                            <a class="mx-center" style="width: 190px;" href="#">
+                                <img src="static/img/div1/i1.jpg" width="140px" height="200px">
+                            </a>
+                        </div>
+                        <div class="d-inline">
+                            <a class="mx-center" style="width: 190px;" href="#">
+                                <img src="static/img/div1/i20.jpg" width="140px" height="200px">
+                            </a>
+                        </div>
+                        <div class="d-inline">
+                            <a class="mx-center" style="width: 190px;" href="#">
+                                <img src="static/img/div1/i21.jpg" width="140px" height="200px">
+                            </a>
+                        </div>
+                        <div class="d-inline">
+                            <a class="mx-center" style="width: 190px;" href="#">
+                                <img src="static/img/div1/i22.jpg" width="140px" height="200px">
+                            </a>
+                        </div>
+                        <div class="d-inline">
+                            <a class="mx-center" style="width: 190px;" href="#">
+                                <img src="static/img/div1/i23.jpg" width="140px" height="200px">
+                            </a>
+                        </div>
+                        <div class="d-inline">
+                            <a class="mx-center" style="width: 290px;" href="#">
+                                <img src="static/img/div1/i24.jpg" width="140px" height="200px">
+                            </a>
+                        </div>
+                        <div class="d-inline">
+                            <a class="mx-center" style="width: 190px;" href="#">
+                                <img src="static/img/div1/i2.jpg" width="140px" height="200px">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="slider_btn slider_btn_one">
+                        <div class="chevron_prev_next chevron_prev mx-2">
+                            <span class="prev">
+                                <i class="fa fa-chevron-left"></i>
+                            </span>
+                        </div>
+                        <div class="chevron_prev_next chevron_next mx-2">
+                            <span class="next">
+                                <i class="fa fa-chevron-right"></i>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="mt-3 pt-3 pb-2 bg-white mx-2">
+                <div class="row">
+                    <div class="col xl4 l4 m6 s12">
+                        <img src="static/img/bg8.jpg" width="100%" height="250px">
+                    </div>
+                    
+                    <div class="col xl4 l4 m6 s12">
+                        <img src="static/img/bg6.jpg" width="100%" height="250px">
+                    </div>
+                    
+                    <div class="col xl4 l4 m6 s12">
+                        <img src="static/img/bg3.jpg" width="100%" height="250px">
+                    </div>
+                </div>
+            </div>
+
+            <div class="home_div_2 px-2 mt-3">
+                <div class="bg-white px-3 py-2">
+                    <h4 class="f-700 fs-24">Up to 50% off travel gear | Amazon Brands & more</h4>
+                    <div class="slider_one mt-3">
+                        <div class="d-inline">
+                            <a class="mx-center" style="width: 190px;" href="#">
+                                <img src="static/img/medical/m1.png" width="140px" height="200px">
+                            </a>
+                        </div>
+                        <div class="d-inline">
+                            <a class="mx-center" style="width: 190px;" href="#">
+                                <img src="static/img/medical/m2.png" width="140px" height="200px">
+                            </a>
+                        </div>
+                        <div class="d-inline">
+                            <a class="mx-center" style="width: 190px;" href="#">
+                                <img src="static/img/medical/m3.png" width="140px" height="200px">
+                            </a>
+                        </div>
+                        <div class="d-inline">
+                            <a class="mx-center" style="width: 190px;" href="#">
+                                <img src="static/img/medical/m4.png" width="140px" height="200px">
+                            </a>
+                        </div>
+                        <div class="d-inline">
+                            <a class="mx-center" style="width: 190px;" href="#">
+                                <img src="static/img/medical/m5.png" width="140px" height="200px">
+                            </a>
+                        </div>
+                        <div class="d-inline">
+                            <a class="mx-center" style="width: 290px;" href="#">
+                                <img src="static/img/medical/m6.png" width="140px" height="200px">
+                            </a>
+                        </div>
+                        <div class="d-inline">
+                            <a class="mx-center" style="width: 190px;" href="#">
+                                <img src="static/img/medical/m7.png" width="140px" height="200px">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="slider_btn slider_btn_one">
+                        <div class="chevron_prev_next chevron_prev mx-2">
+                            <span class="prev">
+                                <i class="fa fa-chevron-left"></i>
+                            </span>
+                        </div>
+                        <div class="chevron_prev_next chevron_next mx-2">
+                            <span class="next">
+                                <i class="fa fa-chevron-right"></i>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="home_div_2 px-2 mt-3">
+                <div class="bg-white px-3 py-2">
+                    <h4 class="f-700 fs-24">Up to 50% off travel gear | Amazon Brands & more</h4>
+                    <div class="slider_one mt-3">
+                        <div class="d-inline">
+                            <a class="mx-center" style="width: 190px;" href="#">
+                                <img src="static/img/cup/c1.jpg" width="140px" height="200px">
+                            </a>
+                        </div>
+                        <div class="d-inline">
+                            <a class="mx-center" style="width: 190px;" href="#">
+                                <img src="static/img/cup/c2.jpg" width="140px" height="200px">
+                            </a>
+                        </div>
+                        <div class="d-inline">
+                            <a class="mx-center" style="width: 190px;" href="#">
+                                <img src="static/img/cup/c3.jpg" width="140px" height="200px">
+                            </a>
+                        </div>
+                        <div class="d-inline">
+                            <a class="mx-center" style="width: 190px;" href="#">
+                                <img src="static/img/cup/c4.jpg" width="140px" height="200px">
+                            </a>
+                        </div>
+                        <div class="d-inline">
+                            <a class="mx-center" style="width: 190px;" href="#">
+                                <img src="static/img/cup/c5.jpg" width="140px" height="200px">
+                            </a>
+                        </div>
+                        <div class="d-inline">
+                            <a class="mx-center" style="width: 290px;" href="#">
+                                <img src="static/img/cup/c6.jpg" width="140px" height="200px">
+                            </a>
+                        </div>
+                        <div class="d-inline">
+                            <a class="mx-center" style="width: 190px;" href="#">
+                                <img src="static/img/cup/c7.jpg" width="140px" height="200px">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="slider_btn slider_btn_one">
+                        <div class="chevron_prev_next chevron_prev mx-2">
+                            <span class="prev">
+                                <i class="fa fa-chevron-left"></i>
+                            </span>
+                        </div>
+                        <div class="chevron_prev_next chevron_next mx-2">
+                            <span class="next">
+                                <i class="fa fa-chevron-right"></i>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-3">
+
+                <div class="col xl3 l3 m6 s12 home_div_1 p-3 mb-3">
+                    <div class="dv1 px-3 py-2">
+                        <h6 class="f-bold fs-20 mb-2">For your pets | Free delivery</h6>
+                        <div class="row">
+                            <div class="col xl6 l6 m6 s6">
+                                <a href="#">
+                                    <img src="static/img/div1/i25.jpg" class="responsive-img"><br>
+                                    <span class="text-black">Dog Supplies</span>
+                                </a>
+                            </div>
+                            <div class="col xl6 l6 m6 s6">
+                                <a href="#">
+                                    <img src="static/img/div1/i26.jpg" class="responsive-img"><br>
+                                    <span>Cat Supplies</span>
+                                </a>
+                            </div>
+                            <div class="col xl6 l6 m6 s6">
+                                <a href="#">
+                                    <img src="static/img/div1/i27.jpg" class="responsive-img"><br>
+                                    <span>Aquas Supplies</span>
+                                </a>
+                            </div>
+                            <div class="col xl6 l6 m6 s6">
+                                <a href="#">
+                                    <img src="static/img/div1/i28.jpg" class="responsive-img"><br>
+                                    <span>Bird Supplies</span>
+                                </a>
+                            </div>
+                        </div>
+                        <a href="#">see more</a>
+                    </div>
+                </div>
+
+                <div class="col xl3 l3 m6 s12 home_div_1 p-3 mb-3">
+                    <div class="dv1 px-3 py-2">
+                        <h6 class="f-bold fs-20 mb-2">Up to 50% off: Tools for home</h6>
+                        <div class="mb-3 mt-3">
+                            <img src="static/img/div1/i33.jpg" width="100%" height="260px">
+                        </div>
+                        <a href="#">see more</a>
+                    </div>
+                </div>
+
+                <div class="col xl3 l3 m6 s12 home_div_1 p-3 mb-3">
+                    <div class="dv1 px-3 py-2">
+                        <h6 class="f-bold fs-20 mb-2">Up to 50% off on Brands</h6>
+                        <div class="row">
+                            <div class="col xl6 l6 m6 s6">
+                                <a href="#">
+                                    <img src="static/img/div1/i29.jpg" class="responsive-img"><br>
+                                    <span class="text-black">Dog Supplies</span>
+                                </a>
+                            </div>
+                            <div class="col xl6 l6 m6 s6">
+                                <a href="#">
+                                    <img src="static/img/div1/i30.jpg" class="responsive-img"><br>
+                                    <span>Cat Supplies</span>
+                                </a>
+                            </div>
+                            <div class="col xl6 l6 m6 s6">
+                                <a href="#">
+                                    <img src="static/img/div1/i31.jpg" class="responsive-img"><br>
+                                    <span>Aquas Supplies</span>
+                                </a>
+                            </div>
+                            <div class="col xl6 l6 m6 s6">
+                                <a href="#">
+                                    <img src="static/img/div1/i32.jpg" class="responsive-img"><br>
+                                    <span>Bird Supplies</span>
+                                </a>
+                            </div>
+                        </div>
+                        <a href="#">see more</a>
+                    </div>
+                </div>
+
+                <div class="col xl3 l3 m6 s12 home_div_1 p-3 mb-3">
+                    <div class="dv1 px-3 py-2">
+                        <h6 class="f-bold fs-20 mb-2">Explore mirrorless cameras</h6>
+                        <div class="mb-3 mt-3">
+                            <img src="static/img/div1/i34.jpg" width="100%" height="260px">
+                        </div>
+                        <a href="#">see more</a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- ************************************** Section two End *********************************** -->
+        
+        <!-- ********************************** Footer Section Start ********************************* -->
+        <footer class="website_footer">
+            <div class="mycontainer pt-4 pb-1">
+                <div class="row">
+                    <div class="col xl2 l2 m4 s4">
+                        <h6 class="f-bold mt-2">ABOUT</h6>
+
+                        <li><a class="t-center" href="#">Contact</a></li>
+                        <li><a class="t-center" href="#">About</a></li>
+                        <li><a class="t-center" href="#">Carriers</a></li>
+                        <li><a class="t-center" href="#">Our Stories</a></li>
+                        <li><a class="t-center" href="#">Press</a></li>
+                    </div>
+
+                    <div class="col xl2 l2 m4 s4">
+                        <h6 class="f-bold mt-2">POLICY</h6>
+
+                        <li><a class="t-center" href="#">Return Policy</a></li>
+                        <li><a class="t-center" href="#">Terms and Conditions</a></li>
+                        <li><a class="t-center" href="#">Privacy</a></li>
+                        <li><a class="t-center" href="#">Payments</a></li>
+                        <li><a class="t-center" href="#">Cancellation & Returns</a></li>
+                        <li><a class="t-center" href="#">Shippings</a></li>
+                    </div>
+
+                    <div class="col xl2 l2 m4 s4">
+                        <h6 class="f-bold mt-2">SOCIAL</h6>
+
+                        <li><a class="t-center" href="#">Facebook</a></li>
+                        <li><a class="t-center" href="#">Twitter</a></li>
+                        <li><a class="t-center" href="#">Youtube</a></li>
+                        <li><a class="t-center" href="#">Github</a></li>
+                        <li><a class="t-center" href="#">Google +</a></li>
+                    </div>
+
+                    <div class="col xl3 l2 m4 s12">
+                        <h6>MAIL US</h6>
+                        <p>INFERNO Internet Private Limited,<br>
+
+                            Buildings Alyssa,<br> Begonia &
+
+                            Clove Embassy Tech Village,<br>
+
+                            Outer Ring Road, Devarabeesanahalli Village,<br>
+
+                            Bengaluru, 560103,
+
+                            Karnataka, India.</p>
+
+                        <p><i class="fa fa-envelope text-red mr-2" aria-hidden="true"></i>ankitjain.aj1996@gmail.com</p>
+                    </div>
+
+                    <div class="col xl3 l2 m4 s12">
+                        <h6>ABOUT FREELANCER</h6>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy textLorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+
+                        <p><i class="fa fa-phone text-red mr-2" aria-hidden="true"></i> 8770389198 </p>
+                    </div>
+                </div>
+
+                <div class="footer_copyright">
+                    <p>Copyright ©2019 All rights reserved | This template is made with  by Colorlib</p>
+                </div>
+
+            </div>
+        </footer>
+        <!-- *********************************** Footer Section End ********************************** -->
+
+        <!-- ********************************** fixed_action_btn start ******************************** -->
+        <div class="fixed-action-btn">
+          <a class="btn-floating btn-large red">
+            <i class="large material-icons">mode_edit</i>
+          </a>
+          <ul>
+            <li><a class="btn-floating red"><i class="material-icons">insert_chart</i></a></li>
+            <li><a class="btn-floating yellow darken-1"><i class="material-icons">format_quote</i></a></li>
+            <li><a class="btn-floating green"><i class="material-icons">publish</i></a></li>
+            <li><a class="btn-floating blue"><i class="material-icons">attach_file</i></a></li>
+          </ul>
+        </div>
+        <!-- *********************************** fixed_action_btn End ********************************* -->
+        <!-- Main Content End -->
+        
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        
+        <!-- Compiled and minified JavaScript -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+        
+        <!-- Slick Slider Js -->        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" integrity="sha256-NXRS8qVcmZ3dOv3LziwznUHPegFhPZ1F/4inU7uC8h0=" crossorigin="anonymous"></script>
+        
+        <script>
+            $(document).ready(function(){
+                $('.sidenav').sidenav();
+                /* ****** Carousel ******* */
+                $('.carousel.carousel-slider').carousel({
+                    fullWidth: true,
+                    indicators: true,
+                });
+
+                $('.slider_one').slick({
+                    dots: false,
+                    speed: 300,
+                    autoplay:true,
+                    autoplaySpeed: 1800,
+                    slidesToShow: 6,
+                    slidesToScroll: 3,
+                    arrows: true,
+                    prevArrow: ".slider_btn_one .chevron_prev",
+                    nextArrow: ".slider_btn_one .chevron_next",
+                    responsive: [
+                        {
+                          breakpoint: 1024,
+                          settings: {
+                            slidesToShow: 3,
+                            slidesToScroll: 1,
+                            infinite: true,
+                            dots: true
+                          }
+                        },
+                        {
+                          breakpoint: 600,
+                          settings: {
+                            slidesToShow: 2,
+                            slidesToScroll: 1
+                          }
+                        },
+                        {
+                          breakpoint: 480,
+                          settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1
+                          }
+                        }
+                    ]
+                });
+            });
+        </script>
+    </body>
+</html>
